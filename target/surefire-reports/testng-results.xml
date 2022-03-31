@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-31T13:57:41 CEST" name="Login page Test" finished-at="2022-03-31T13:58:10 CEST" duration-ms="29128">
+    <groups>
+      <group name="Negative">
+        <method signature="LoginPageTest.LoginInvalidCredentialsInvalidPassword()[pri:1, instance:placelab.tests.LoginPageTest@16e7dcfd]" name="LoginInvalidCredentialsInvalidPassword" class="placelab.tests.LoginPageTest"/>
+        <method signature="LoginPageTest.LoginInvalidCredentialsInvalidEmail()[pri:2, instance:placelab.tests.LoginPageTest@16e7dcfd]" name="LoginInvalidCredentialsInvalidEmail" class="placelab.tests.LoginPageTest"/>
+        <method signature="LoginPageTest.LoginInvalidCredentialsEmptyPassword()[pri:3, instance:placelab.tests.LoginPageTest@16e7dcfd]" name="LoginInvalidCredentialsEmptyPassword" class="placelab.tests.LoginPageTest"/>
+        <method signature="LoginPageTest.LoginInvalidCredentialsEmptyEmail()[pri:4, instance:placelab.tests.LoginPageTest@16e7dcfd]" name="LoginInvalidCredentialsEmptyEmail" class="placelab.tests.LoginPageTest"/>
+        <method signature="LoginPageTest.LoginInvalidCredentialsInvalidPassword()[pri:1, instance:placelab.tests.LoginPageTest@7c469c48]" name="LoginInvalidCredentialsInvalidPassword" class="placelab.tests.LoginPageTest"/>
+        <method signature="LoginPageTest.LoginInvalidCredentialsInvalidEmail()[pri:2, instance:placelab.tests.LoginPageTest@7c469c48]" name="LoginInvalidCredentialsInvalidEmail" class="placelab.tests.LoginPageTest"/>
+        <method signature="LoginPageTest.LoginInvalidCredentialsEmptyPassword()[pri:3, instance:placelab.tests.LoginPageTest@7c469c48]" name="LoginInvalidCredentialsEmptyPassword" class="placelab.tests.LoginPageTest"/>
+        <method signature="LoginPageTest.LoginInvalidCredentialsEmptyEmail()[pri:4, instance:placelab.tests.LoginPageTest@7c469c48]" name="LoginInvalidCredentialsEmptyEmail" class="placelab.tests.LoginPageTest"/>
+      </group> <!-- Negative -->
+      <group name="Positive">
+        <method signature="LoginPageTest.LoginLogout()[pri:5, instance:placelab.tests.LoginPageTest@16e7dcfd]" name="LoginLogout" class="placelab.tests.LoginPageTest"/>
+        <method signature="LoginPageTest.LoginForgotYourPassword()[pri:6, instance:placelab.tests.LoginPageTest@16e7dcfd]" name="LoginForgotYourPassword" class="placelab.tests.LoginPageTest"/>
+        <method signature="LoginPageTest.LoginLogout()[pri:5, instance:placelab.tests.LoginPageTest@7c469c48]" name="LoginLogout" class="placelab.tests.LoginPageTest"/>
+        <method signature="LoginPageTest.LoginForgotYourPassword()[pri:6, instance:placelab.tests.LoginPageTest@7c469c48]" name="LoginForgotYourPassword" class="placelab.tests.LoginPageTest"/>
+      </group> <!-- Positive -->
+    </groups>
+    <test started-at="2022-03-31T13:57:41 CEST" name="Login Chrome" finished-at="2022-03-31T13:57:58 CEST" duration-ms="17451">
+      <class name="placelab.tests.LoginPageTest">
+        <test-method is-config="true" signature="openApp(java.lang.String)[pri:0, instance:placelab.tests.LoginPageTest@16e7dcfd]" started-at="2022-03-31T13:57:41 CEST" name="openApp" description="Verify that user is able to open PlaceLab App." finished-at="2022-03-31T13:57:47 CEST" duration-ms="5969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="LoginInvalidCredentialsInvalidPassword()[pri:1, instance:placelab.tests.LoginPageTest@16e7dcfd]" started-at="2022-03-31T13:57:47 CEST" name="LoginInvalidCredentialsInvalidPassword" description="This test verifies that user can not login with invalid password." finished-at="2022-03-31T13:57:48 CEST" duration-ms="1018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInvalidCredentialsInvalidPassword -->
+        <test-method signature="LoginInvalidCredentialsInvalidEmail()[pri:2, instance:placelab.tests.LoginPageTest@16e7dcfd]" started-at="2022-03-31T13:57:48 CEST" name="LoginInvalidCredentialsInvalidEmail" description="This test verifies that user can not login with invalid email." finished-at="2022-03-31T13:57:49 CEST" duration-ms="899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInvalidCredentialsInvalidEmail -->
+        <test-method signature="LoginInvalidCredentialsEmptyPassword()[pri:3, instance:placelab.tests.LoginPageTest@16e7dcfd]" started-at="2022-03-31T13:57:49 CEST" name="LoginInvalidCredentialsEmptyPassword" description="This test verifies that user can not login with empty password." finished-at="2022-03-31T13:57:50 CEST" duration-ms="912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInvalidCredentialsEmptyPassword -->
+        <test-method signature="LoginInvalidCredentialsEmptyEmail()[pri:4, instance:placelab.tests.LoginPageTest@16e7dcfd]" started-at="2022-03-31T13:57:50 CEST" name="LoginInvalidCredentialsEmptyEmail" description="This test verifies that user can not login with empty email." finished-at="2022-03-31T13:57:51 CEST" duration-ms="972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInvalidCredentialsEmptyEmail -->
+        <test-method signature="LoginLogout()[pri:5, instance:placelab.tests.LoginPageTest@16e7dcfd]" started-at="2022-03-31T13:57:51 CEST" name="LoginLogout" description="This test verifies that user is able to login to PlaceLab, and logout with valid credentials." finished-at="2022-03-31T13:57:58 CEST" duration-ms="7059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginLogout -->
+        <test-method signature="LoginForgotYourPassword()[pri:6, instance:placelab.tests.LoginPageTest@16e7dcfd]" started-at="2022-03-31T13:57:58 CEST" name="LoginForgotYourPassword" description="This test verifies that user can open page &#039;Forgot your password&#039;" finished-at="2022-03-31T13:57:58 CEST" duration-ms="571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginForgotYourPassword -->
+      </class> <!-- placelab.tests.LoginPageTest -->
+    </test> <!-- Login Chrome -->
+    <test started-at="2022-03-31T13:57:41 CEST" name="Login Firefox" finished-at="2022-03-31T13:58:10 CEST" duration-ms="29122">
+      <class name="placelab.tests.LoginPageTest">
+        <test-method is-config="true" signature="openApp(java.lang.String)[pri:0, instance:placelab.tests.LoginPageTest@7c469c48]" started-at="2022-03-31T13:57:41 CEST" name="openApp" description="Verify that user is able to open PlaceLab App." finished-at="2022-03-31T13:58:00 CEST" duration-ms="18893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="LoginInvalidCredentialsInvalidPassword()[pri:1, instance:placelab.tests.LoginPageTest@7c469c48]" started-at="2022-03-31T13:58:00 CEST" name="LoginInvalidCredentialsInvalidPassword" description="This test verifies that user can not login with invalid password." finished-at="2022-03-31T13:58:01 CEST" duration-ms="1117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInvalidCredentialsInvalidPassword -->
+        <test-method signature="LoginInvalidCredentialsInvalidEmail()[pri:2, instance:placelab.tests.LoginPageTest@7c469c48]" started-at="2022-03-31T13:58:01 CEST" name="LoginInvalidCredentialsInvalidEmail" description="This test verifies that user can not login with invalid email." finished-at="2022-03-31T13:58:02 CEST" duration-ms="1225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInvalidCredentialsInvalidEmail -->
+        <test-method signature="LoginInvalidCredentialsEmptyPassword()[pri:3, instance:placelab.tests.LoginPageTest@7c469c48]" started-at="2022-03-31T13:58:02 CEST" name="LoginInvalidCredentialsEmptyPassword" description="This test verifies that user can not login with empty password." finished-at="2022-03-31T13:58:03 CEST" duration-ms="1278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInvalidCredentialsEmptyPassword -->
+        <test-method signature="LoginInvalidCredentialsEmptyEmail()[pri:4, instance:placelab.tests.LoginPageTest@7c469c48]" started-at="2022-03-31T13:58:03 CEST" name="LoginInvalidCredentialsEmptyEmail" description="This test verifies that user can not login with empty email." finished-at="2022-03-31T13:58:04 CEST" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInvalidCredentialsEmptyEmail -->
+        <test-method signature="LoginLogout()[pri:5, instance:placelab.tests.LoginPageTest@7c469c48]" started-at="2022-03-31T13:58:04 CEST" name="LoginLogout" description="This test verifies that user is able to login to PlaceLab, and logout with valid credentials." finished-at="2022-03-31T13:58:09 CEST" duration-ms="5326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginLogout -->
+        <test-method signature="LoginForgotYourPassword()[pri:6, instance:placelab.tests.LoginPageTest@7c469c48]" started-at="2022-03-31T13:58:09 CEST" name="LoginForgotYourPassword" description="This test verifies that user can open page &#039;Forgot your password&#039;" finished-at="2022-03-31T13:58:10 CEST" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginForgotYourPassword -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:placelab.tests.LoginPageTest@7c469c48]" started-at="2022-03-31T13:58:10 CEST" name="quitDriver" finished-at="2022-03-31T13:58:12 CEST" duration-ms="1715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- placelab.tests.LoginPageTest -->
+    </test> <!-- Login Firefox -->
+  </suite> <!-- Login page Test -->
+</testng-results>
